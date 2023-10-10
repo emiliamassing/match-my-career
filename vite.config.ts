@@ -6,5 +6,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['@digi/arbetsformedlingen'],
   },
+  base: '/match-my-career/',
   plugins: [react()],
 });
