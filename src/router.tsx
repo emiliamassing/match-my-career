@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { Search } from './components/Search';
@@ -7,7 +7,7 @@ import { AboutEducationView } from './components/AboutEducationView';
 import { OccupationsList } from './components/OccupationsList';
 import { ErrorComponent } from './components/ErrorComponent';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,
